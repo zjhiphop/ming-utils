@@ -1,0 +1,27 @@
+{
+  "name": "@minglabs-sz/utils",
+  "version": "0.0.1",
+  "description": "Commonly used Utilities",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "shx rm -rf dist && tsc -b",
+    "lint": "eslint . --ext .ts --config .eslintrc",
+    "test": "TEST=* mocha --forbid-only \"test/**/*.test.ts\"",
+    "test-cli": "TEST=* mocha --forbid-only \"__tests__/**/*.test.ts\""
+  },
+  "keywords": [
+    "Utils"
+  ],
+  "author": "zjhiphop@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^7.32.0",
+    "fast-extract": "^0.3.1",
+    "mocha": "^9",
+    "shx": "^0.3.3",
+    "ts-node": "^10.2.1"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
