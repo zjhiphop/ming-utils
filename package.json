@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Commonly used Utilities",
   "main": "dist/index.js",
+  "private": false,
   "scripts": {
     "build": "shx rm -rf dist && tsc -b",
     "lint": "eslint . --ext .ts --config .eslintrc",
@@ -23,5 +24,17 @@
   },
   "engines": {
     "node": ">=12.0.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjhiphop/ming-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zjhiphop/ming-utils/issues"
+  },
+  "homepage": "https://github.com/zjhiphop/ming-utils#readme"
 }
