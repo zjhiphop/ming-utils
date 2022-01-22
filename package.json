@@ -16,11 +16,7 @@
   "author": "zjhiphop@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "eslint": "^7.32.0",
     "fast-extract": "^0.3.1",
-    "mocha": "^9",
-    "shx": "^0.3.3",
-    "ts-node": "^10.2.1"
   },
   "engines": {
     "node": ">=12.0.0"
@@ -28,7 +24,12 @@
   "directories": {
     "test": "test"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "mocha": "^9",
+    "shx": "^0.3.3",
+    "ts-node": "^10.2.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zjhiphop/ming-utils.git"
