@@ -1,4 +1,4 @@
-export { exec, mkdir, pull } from './exec'
+export { exec, mkdir, pull, resolveGitIgnore } from './exec'
 export {
   fetchNpmAndExtract,
   copy,

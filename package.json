@@ -16,7 +16,8 @@
   "author": "zjhiphop@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "fast-extract": "^0.3.1"
+    "fast-extract": "^0.3.1",
+    "fs-extra": "^10.1.0"
   },
   "engines": {
     "node": ">=12.0.0"
