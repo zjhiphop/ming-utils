@@ -1,6 +1,6 @@
 {
   "name": "@minglabs-sz/utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Commonly used Utilities",
   "main": "dist/index.js",
   "private": false,
